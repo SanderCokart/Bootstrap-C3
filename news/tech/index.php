@@ -24,19 +24,19 @@
                 <div class="col-lg-12 col-lg-6">
                     <ul class="nav nav-tabs nav-justified">
                         <li class="nav-item">
-                            <a href="" class="nav-link disabled"><i class="fa fa-arrow-left"></i> Vorige</a>
+                            <a href="/news/recent" class="nav-link"><i class="fa fa-arrow-left"></i> Vorige</a>
                         </li>
                         <li class="nav-item active">
-                            <a href="" class="nav-link active">Recent <span class="badge badge-pill bg-dark badge-dark">3</span></a>
+                            <a href="/news/recent" class="nav-link">Recent</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/news/tech" class="nav-link">Tech <span class="badge badge-pill bg-dark badge-dark">2</span></a>
+                            <a href="" class="nav-link active">Tech</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/news/wetenschap" class="nav-link">Wetenschap <span class="badge badge-pill bg-dark badge-dark">1</span></a>
+                            <a href="" class="nav-link">Wetenschap</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/news/tech" class="nav-link">Volgende <i class="fa fa-arrow-right"></i></a>
+                            <a href="" class="nav-link">Volgende <i class="fa fa-arrow-right"></i></a>
                         </li>
                     </ul>
                 </div>
