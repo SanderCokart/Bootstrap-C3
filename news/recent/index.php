@@ -10,16 +10,19 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
-        <title>Test</title>
+        <title>Recent</title>
     </head>
     <body>
 
+<!-- NAVIGATION START -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         </nav>
         <script type="text/javascript">
         $("nav").load("/html-preload/nav.html");
         </script>
+<!-- NAVIGATION END -->
 
+<!-- NAVBAR CATAGORIES START -->
             <div class="row">
                 <div class="col-lg-12 col-lg-6">
                     <ul class="nav nav-tabs nav-justified">
@@ -41,12 +44,14 @@
                     </ul>
                 </div>
             </div>
+<!-- NAVBAR CATAGORIES END -->
 
             <hr>
 
+<!-- NAV PAGES START -->
             <div class="row">
                 <div class="col-lg-12 col-lg-6">
-                    <ul class="nav nav-pills nav-justified">
+                    <ul class="nav nav-pills">
                         <li class="nav-item">
                             <a class="nav-link active" data-toggle="tab" href="#tab1">Voorpagina</a>
                         </li>
@@ -59,14 +64,17 @@
                     </ul>
                 </div>
             </div>
+<!-- NAV PAGES END -->
 
             <br>
 
+<!-- HIDDEN CONTENT START -->
             <div class="tab-content">
                 <div class="tab-pane container active" id="tab1"><?php include "news1.html" ?></div>
                 <div class="tab-pane container" id="tab2"><?php include "news2.html" ?></div>
                 <div class="tab-pane container" id="tab3"><?php include "news3.html" ?></div>
             </div>
+<!-- HIDDEN CONTENT END -->
 
     </body>
     <script src="/bootstrap-4.3.1-dist\js\popper.js" charset="utf-8"></script>
