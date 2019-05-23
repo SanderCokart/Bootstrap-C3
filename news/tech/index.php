@@ -17,7 +17,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         </nav>
         <script type="text/javascript">
-        $("nav").load("/html-preload/nav.html");
+        $("nav").load("/html-preload/nav.html?version=1.1");
         </script>
 <!-- NAVIGATION END -->
 
@@ -50,7 +50,7 @@
 <!-- NAV PAGES START -->
             <div class="row">
                 <div class="col-lg-12 col-lg-6">
-                    <ul class="nav nav-pills">
+                    <ul class="nav nav-pills justify-content-center">
                         <li class="nav-item">
                             <a class="nav-link active" data-toggle="tab" href="#tab1">Voorpagina</a>
                         </li>
