@@ -14,11 +14,14 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-    </nav>
-    <script type="text/javascript">
-        $("nav").load("/html-preload/nav.html?version=1.1");
-    </script>
+<!-- NAVIGATION START -->
+    <?php
+        $path = $_SERVER['DOCUMENT_ROOT'];
+        $path .= "/html-preload/nav.html";
+        include_once($path);
+    ?>
+<!-- NAVIGATION END -->
+
 
     <div class="container">
         <h1>Subscribe to our news letter!</h1>
