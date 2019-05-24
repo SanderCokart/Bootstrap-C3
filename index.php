@@ -4,9 +4,9 @@
 <head>
     <script src="/js/jquery-3.3.1.js" charset="utf-8"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="/bootstrap-4.3.1-dist\css\bootstrap.min.css">
     <link rel="stylesheet" href="/bootstrap-4.3.1-dist\css\bootstrap-grid.min.css">
     <link rel="stylesheet" href="/bootstrap-4.3.1-dist\css\bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="/bootstrap-4.3.1-dist\css\bootstrap.min.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -22,13 +22,16 @@
 </head>
 
 <body>
-    <!-- NAVIGATION START -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-    </nav>
-    <script type="text/javascript">
-        $("nav").load("/html-preload/nav.html?version=1.1");
-    </script>
-    <!-- NAVIGATION END -->
+
+<!-- NAVIGATION START -->
+    <?php
+        $path = $_SERVER['DOCUMENT_ROOT'];
+        $path .= "/html-preload/nav.html";
+        include_once($path);
+    ?>
+<!-- NAVIGATION END -->
+
+<!-- CAROUSEL START -->
     <div class="container">
         <div id="homeCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -57,9 +60,11 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+<!-- CAROUSEL END -->
 
         <br>
 
+<!-- ABOUT ME START -->
         <img style="width:100px;" class="mx-auto d-block" src="/images
         /profilecircle.png" alt="" class="img-fluid">
         <h1 class="text-center">ABOUT ME</h1>
@@ -75,6 +80,7 @@
         </div>
 
     </div>
+<!-- ABOUT ME END -->
 
     <br>
 

@@ -15,11 +15,11 @@
     <body>
 
 <!-- NAVIGATION START -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        </nav>
-        <script type="text/javascript">
-        $("nav").load("/html-preload/nav.html?version=1.1");
-        </script>
+    <?php
+        $path = $_SERVER['DOCUMENT_ROOT'];
+        $path .= "/html-preload/nav.html";
+        include_once($path);
+    ?>
 <!-- NAVIGATION END -->
 
 <!-- NAVBAR CATAGORIES START -->
